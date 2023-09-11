@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('https://images8.alphacoders.com/508/508520.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+h1, h5 {
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+p {
+    text-align: left;
+}
+
+.image-right {
+    float: right;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left img,
+.footer-right img {
+    max-width: 219px;
+}
+
+.footer-text {
+    text-align: center;
+}
