@@ -72,9 +72,7 @@ h2 {
     font-size: 37px;
 }
 
-p {
-    text-align: left;
-}
+
 
 footer {
     text-align: center;
@@ -84,19 +82,19 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     background-color: rgba(255, 255, 255, 0.233);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
 }
-.footer-right{
-    justify-content: center;
-    display: flex;
-    padding: 20px;
-    vertical-align: baseline;
-}
 
 .footer-text {
     text-align: center;
+    display: 1;
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+
 }
