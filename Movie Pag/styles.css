@@ -29,7 +29,7 @@ body {
     padding: 10px;
 }
 .container2 {
-    background-color: rgba(255, 255, 255, 0.192);
+    background-color: rgba(255, 255, 255, 0.377);
     border-radius: 15px;
     margin: 20px;
     overflow: hidden;
@@ -50,18 +50,26 @@ body {
 .image-right{
     float: right;
     width: 40%;
+    padding: 10px;
     text-align: center;
     padding: 20px;
 }
-
-h1, h5 {
+sub{
+    font-size: 10px;
+    vertical-align: super;
+}
+h1{
+    display: inline;
+    font-size: 33px;
+}
+h5{
     display: inline;
 }
 
 h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 37px;
 }
 
 p {
@@ -76,12 +84,17 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
 }
-
-.footer-left img,
-.footer-right img {
-    max-width: 219px;
+.footer-right{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    vertical-align: baseline;
 }
 
 .footer-text {
