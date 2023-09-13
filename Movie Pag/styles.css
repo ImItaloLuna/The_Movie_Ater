@@ -6,6 +6,52 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.container {
+    background-color: rgba(159, 255, 223, 0.678);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    flex: 1;
+    padding: 10px;
+}
+
+.description{
+    flex: 1;
+    padding: 10px;
+}
+.container2 {
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+    align-items: center;
+}
+.container2-contant{
+    display: flex;
+    align-items: center;
+}
+.sinopse{
+    float: left;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-right{
+    float: right;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
 }
 
 h1, h5 {
@@ -20,11 +66,6 @@ h2 {
 
 p {
     text-align: left;
-}
-
-.image-right {
-    float: right;
-    margin-left: 20px;
 }
 
 footer {
