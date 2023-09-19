@@ -1,14 +1,39 @@
+/*
+TODO:
+filme em alta
+lançamentos
+*/
 body {
 
-font-family: Arial,
-sans-serif;
-margin: 0;
-padding: 0;
-background-color: rgba(0, 0, 0, 0.5);
-background-image: url('https://images8.alphacoders.com/508/508520.jpg');
-background-size: cover;
-background-position: center;
-background-blend-mode: overlay;
+    font-family: Arial,
+        sans-serif;
+    margin: 5;
+    padding: 5;
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+p,
+label,
+h1 {
+    color: #fff;
+}
+
+.aligned-table movie:first-child{
+    width: 150px;
+    white-space: nowrap;
+}
+
+.aligned-table select{
+    vertical-align: middle;
+}
+
+.aligned-table select {
+    padding: 10px;
+    border: 1px solid #fff;
 }
 
 header {
@@ -33,11 +58,11 @@ header {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .movie img:hover {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
 
 footer {
@@ -50,4 +75,67 @@ footer {
     color: #fff;
     text-align: right;
     padding: 10px;
+}
+.container99{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(19, 22, 22);
+}
+
+.container99:hover .rool {
+    animation-play-state: running;
+}
+
+.shake-animation {
+    animation: shake 1s infinite;
+    color: #ffffff;
+    font-size: x-large;
+    text-align: center;
+    -webkit-animation: shake 1s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.rool {
+    display: flex;
+    animation: slideLeft 50s linear infinite;
+    -webkit-animation: slideLeft 45s linear infinite paused;
+}
+
+.rool img {
+    width: 400px;
+    height: auto;
+    padding: 2px;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
 }
