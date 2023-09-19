@@ -109,6 +109,10 @@ footer {
     animation-play-state: running;
 }
 
+.container3:hover .rool {
+    animation-play-state: running;
+}
+
 .shake-animation {
     animation: shake 1s infinite;
     color: #ffffff;
@@ -142,7 +146,7 @@ footer {
 .rool {
     display: flex;
     animation: slideLeft 50s linear infinite;
-    -webkit-animation: slideLeft 45s linear infinite paused;    
+    -webkit-animation: slideLeft 50s linear infinite;
 }
 
 .rool img {
@@ -154,7 +158,11 @@ footer {
 @keyframes slideLeft {
     0% {
         transform: translateX(0);
-    }
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
 
     100% {
         transform: translateX(-300%);
@@ -167,9 +175,10 @@ footer {
     height: 400px;
 }
 
-.container p{
+.container p {
     color: #ffffff;
 }
+
 .imgtitle {
     width: 100%;
     height: auto;
@@ -224,6 +233,7 @@ footer {
 .container2 p {
     color: #000000;
 }
+
 .text {
     display: 1;
 }
@@ -257,8 +267,6 @@ footer {
     overflow: hidden;
     background-color: rgb(19, 22, 22);
 }
-
-
 
 .container4 {
     background-color: bisque;
