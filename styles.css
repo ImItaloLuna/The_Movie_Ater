@@ -1,7 +1,7 @@
 /*
 TODO:
-filme em alta
-lançamentos
+[x]filme em alta
+[x]lançamentos
 */
 header {
     background-color: #333;
@@ -142,11 +142,11 @@ footer {
 .rool {
     display: flex;
     animation: slideLeft 50s linear infinite;
-    -webkit-animation: slideLeft 45s linear infinite paused;
+    -webkit-animation: slideLeft 45s linear infinite paused;    
 }
 
 .rool img {
-    width: 400px;
+    width: 200px;
     height: auto;
     padding: 2px;
 }
