@@ -1,20 +1,47 @@
-head {
-    background-color: black;
+body {
+    background-color: rgb(184, 174, 174);
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6600;
 }
 
 .container {
     position: relative;
-    width: 1370px;
+    width: 100%;
     height: 400px;
-    overflow: hidden;
 }
 
 .imgtitle {
-    width: 1370px;
-    height: 400px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
-.site,
 .title,
 .ideogram,
 .titleoriginal {
@@ -23,13 +50,10 @@ head {
     color: #ffffff;
     text-align: center;
     font-style: italic;
-}
-
-.site {
-    text-align: right;
-    top: 10%;
-    left: 8%;
-    font-size: 30px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .ideogram {
@@ -42,6 +66,7 @@ head {
     right: 45%;
     top: 32%;
     font-size: x-large;
+    text-decoration: underline;
 }
 
 .titleoriginal {
@@ -49,49 +74,21 @@ head {
     bottom: 12%;
     font-size: x-large;
     font-style: oblique;
+    text-decoration: underline;
 }
 
 .container2 {
-    position: relative;
-    width: 1370px;
+    width: 100%;
     height: auto;
+    padding: 15px 2px 0px;
     overflow: hidden;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: rgb(19, 22, 22);
-}
-
-.rool {
+    background-color: beige;
     display: flex;
-    animation: slideLeft 50s linear infinite;
-    -webkit-animation: slideLeft 45s linear infinite paused;
-}
-
-.rool img {
-    width: 400px;
-    height: auto;
-
-}
-
-@keyframes slideLeft {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-300%);
-    }
-}
-
-.container2:hover .rool {
-    animation-play-state: running;
-}
-
-.container3 {
     position: relative;
-    width: auto;
-    height: 1400px;
-    overflow: hidden;
+}
+
+.text {
+    display: 1;
 }
 
 .synopsis {
@@ -104,5 +101,123 @@ head {
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
-    line-height: 1.5;
+    line-height: 2.0;
+    bottom: 25%;
+    padding: 20px;
+}
+
+.imgsynopsis {
+    height: auto;
+    width: 400px;
+    right: 0%;
+    padding: 0 5px 0 0;
+}
+
+.container3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(19, 22, 22);
+}
+
+.container3:hover .rool {
+    animation-play-state: running;
+}
+
+.shake-animation {
+    animation: shake 1s infinite;
+    color: #ffffff;
+    font-size: x-large;
+    text-align: center;
+    -webkit-animation: shake 1s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.rool {
+    display: flex;
+    animation: slideLeft 50s linear infinite;
+    -webkit-animation: slideLeft 45s linear infinite paused;
+}
+
+.rool img {
+    width: 400px;
+    height: auto;
+    padding: 2px;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.container4{
+background-color: bisque;
+padding: 15px;
+border: 1px solid #000000;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+input[type="text"], textarea {
+    width: 150px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #000000;
+}
+
+button [type="submit"]{
+    background-color: aqua;
+    color: #fff;
+    padding: 15px 25px;
+    border:none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff6600;
+}
+
+.comments ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments li{
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0,0,0.5;
+}
+strong{
+    font-weight: bold;
 }
