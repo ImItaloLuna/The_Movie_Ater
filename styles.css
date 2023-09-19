@@ -141,7 +141,7 @@ footer {
 
 .rool {
     display: flex;
-    animation: slideLeft 50s linear infinite;
+    animation: slideLeft 50s linear infinite paused;
     -webkit-animation: slideLeft 45s linear infinite paused;    
 }
 
