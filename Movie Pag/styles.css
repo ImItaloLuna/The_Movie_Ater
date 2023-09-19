@@ -56,7 +56,8 @@ head {
     width: 1370px;
     height: auto;
     overflow: hidden;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: rgb(19, 22, 22);
 }
 
@@ -84,4 +85,24 @@ head {
 
 .container2:hover .rool {
     animation-play-state: running;
+}
+
+.container3 {
+    position: relative;
+    width: auto;
+    height: 1400px;
+    overflow: hidden;
+}
+
+.synopsis {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.textsynopsis {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    line-height: 1.5;
 }
