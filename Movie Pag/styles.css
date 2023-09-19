@@ -82,7 +82,7 @@ nav a:hover {
     height: auto;
     padding: 15px 2px 0px;
     overflow: hidden;
-    background-color: beige;
+    background-color: #f5f5dc;
     display: flex;
     position: relative;
 }
@@ -177,10 +177,9 @@ nav a:hover {
     }
 }
 
-.container4{
-background-color: bisque;
-padding: 15px;
-border: 1px solid #000000;
+.container4 {
+    background-color: #f5f5dc;
+    padding: 15px;
 }
 
 label {
@@ -188,18 +187,30 @@ label {
     margin: 5px;
 }
 
-input[type="text"], textarea {
-    width: 150px;
+input[type="text"] {
+    width: 100px;
+    height: 10px;
     padding: 15px;
     margin-bottom: 25px;
     border: 1px solid #000000;
 }
 
-button [type="submit"]{
+textarea {
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+    border: 1px solid #000000;
+}
+
+.comments-space {
+    padding: 0px 150px;
+}
+
+button [type="submit"] {
     background-color: aqua;
     color: #fff;
     padding: 15px 25px;
-    border:none;
+    border: none;
     cursor: pointer;
 }
 
@@ -207,17 +218,30 @@ button[type="submit"]:hover {
     background-color: #ff6600;
 }
 
-.comments ul{
-    list-style-type: none;
-    padding: 0;
+.title-comments {
+    background-color: #f5f5dc;
+    padding-left: 50px;
+    border: 1px solid #000000;
 }
 
-.comments li{
+.comments{
+    font-size: 12px;
+    background-color: #f5f5dc;
+
+}
+.comments ul {
+    list-style-type: none;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.comments li {
     border: 1px solid #000000;
     padding: 15px;
     margin-bottom: 10px;
-    box-shadow: 0,0,0.5;
+    box-shadow: 0, 0, 0.5;
 }
-strong{
+
+strong {
     font-weight: bold;
 }
