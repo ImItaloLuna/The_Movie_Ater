@@ -1,1 +1,43 @@
-https://br.pinterest.com/pin/774124928874954/ Ref da Main sinopse
+# Documentação do Projeto "The Movie Ater"
+
+## Equipe de Desenvolvimento
+Italo Luna- Gerente de Projeto, Front-end e Back-end; 
+Eduardo José- Front-end e Back-end; 
+João Vitor- Front-end e Back-end; 
+
+## Visão Geral
+O projeto "The Movie Ater" é uma plataforma online que tem como objetivo principal proporcionar aos usuários a oportunidade de avaliar e comentar sobre filmes, séries e outros conteúdos audiovisuais. A plataforma também inclui funcionalidades como login de usuário e outras funcionalidades que serão desenvolvidas ao longo do processo.
+
+## Funcionalidades Principais
+1. Avaliação de Conteúdo : Os usuários poderão avaliar filmes e séries em uma escala de pontuação.
+
+2. Comentários: Os usuários poderão escrever comentários e críticas sobre os conteúdos avaliados.
+
+3. Login de Usuário: Os usuários poderão criar contas e fazer login para acessar todas as funcionalidades da plataforma.
+
+4. Funções Adicionais: Outras funcionalidades poderão ser implementadas conforme o desenvolvimento avança.
+
+## Tecnologias Utilizadas
+- Front-end: HTML, CSS, JavaScript (React, Angular, ou similar).
+- Back-end: JavaScript (Node.js) e/ou PHP.
+- Banco de Dados: MySQL.
+- Hospedagem: Para fins de estudo.
+
+## Fluxo de Desenvolvimento
+O desenvolvimento do projeto seguirá o seguinte fluxo:
+
+1. Requisitos: Definição dos requisitos do projeto, incluindo funcionalidades específicas, design da interface do usuário e fluxo de navegação.
+
+2. Desenvolvimento Front-end: Criação da interface do usuário, implementação de recursos de avaliação e comentários.
+
+3. Desenvolvimento Back-end: Criação dos servidores, desenvolvimento de funcionalidades de login e integração com o banco de dados.
+
+4. Testes e Depuração: Realização de testes rigorosos para garantir que todas as funcionalidades funcionem corretamente.
+
+5. Manutenção e Aprimoramento Contínuo: Atualizações periódicas e adição de novas funcionalidades conforme necessário.
+
+Cronograma de Desenvolvimento
+O cronograma detalhado do projeto será elaborado pela equipe de desenvolvimento, incluindo prazos para cada fase do projeto.
+
+## Conclusão
+O projeto "The Movie Ater" tem como objetivo criar uma plataforma interativa para avaliação de filmes e séries, proporcionando aos usuários uma maneira fácil e divertida de compartilhar suas opiniões sobre conteúdos audiovisuais. A equipe de desenvolvimento está comprometida em criar uma experiência de alta qualidade para os usuários e está ansiosa para trazer esse projeto à vida.
